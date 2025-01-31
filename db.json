@@ -1,0 +1,169 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "email": "juan.perez@example.com",
+      "telefono": "555-1234-567",
+      "direccion": {
+        "calle": "Calle Falsa 123",
+        "colonia": "Centro",
+        "ciudad": "Ciudad de México",
+        "estado": "CDMX",
+        "codigo_postal": "06000"
+      }
+    }
+  ],
+  "reportes": [
+    {
+      "id": 1,
+      "usuario_id": 1,
+      "tipo": "Alumbrado público falla",
+      "descripcion": "El poste de luz en la esquina de la calle no enciende desde hace 3 días.",
+      "ubicacion": {
+        "calle": "Av. Insurgentes",
+        "colonia": "Roma Norte",
+        "ciudad": "Ciudad de México",
+        "estado": "CDMX",
+        "codigo_postal": "06700"
+      },
+      "fecha": "2023-10-01",
+      "estatus": "Pendiente"
+    },
+    {
+      "id": 2,
+      "usuario_id": 1,
+      "tipo": "Fuga de agua",
+      "descripcion": "Hay una fuga de agua en la calle principal, cerca del parque.",
+      "ubicacion": {
+        "calle": "Calle Morelos",
+        "colonia": "Centro",
+        "ciudad": "Guadalajara",
+        "estado": "Jalisco",
+        "codigo_postal": "44100"
+      },
+      "fecha": "2023-10-02",
+      "estatus": "En progreso"
+    },
+    {
+      "id": 3,
+      "usuario_id": 1,
+      "tipo": "Ramas tiradas",
+      "descripcion": "Hay ramas de árboles tiradas en la banqueta después de la tormenta.",
+      "ubicacion": {
+        "calle": "Calle Hidalgo",
+        "colonia": "Reforma",
+        "ciudad": "Monterrey",
+        "estado": "Nuevo León",
+        "codigo_postal": "64000"
+      },
+      "fecha": "2023-10-03",
+      "estatus": "Resuelto"
+    },
+    {
+      "id": 4,
+      "usuario_id": 1,
+      "tipo": "Drenaje sin tapa",
+      "descripcion": "Falta la tapa de un drenaje en la esquina de la calle, es peligroso.",
+      "ubicacion": {
+        "calle": "Calle Juárez",
+        "colonia": "Centro",
+        "ciudad": "Puebla",
+        "estado": "Puebla",
+        "codigo_postal": "72000"
+      },
+      "fecha": "2023-10-04",
+      "estatus": "Pendiente"
+    },
+    {
+      "id": 5,
+      "usuario_id": 1,
+      "tipo": "Bache en la calle",
+      "descripcion": "Hay un bache grande en la calle principal que está dañando los autos.",
+      "ubicacion": {
+        "calle": "Av. Revolución",
+        "colonia": "San Ángel",
+        "ciudad": "Ciudad de México",
+        "estado": "CDMX",
+        "codigo_postal": "01000"
+      },
+      "fecha": "2023-10-05",
+      "estatus": "En progreso"
+    },
+    {
+      "id": 6,
+      "usuario_id": 1,
+      "tipo": "Basura acumulada",
+      "descripcion": "Hay basura acumulada en la esquina de la calle desde hace una semana.",
+      "ubicacion": {
+        "calle": "Calle Zaragoza",
+        "colonia": "Centro",
+        "ciudad": "Tijuana",
+        "estado": "Baja California",
+        "codigo_postal": "22000"
+      },
+      "fecha": "2023-10-06",
+      "estatus": "Pendiente"
+    },
+    {
+      "id": 7,
+      "usuario_id": 1,
+      "tipo": "Poste de luz caído",
+      "descripcion": "Un poste de luz está caído y obstruye el paso en la calle.",
+      "ubicacion": {
+        "calle": "Calle Madero",
+        "colonia": "Centro",
+        "ciudad": "Cancún",
+        "estado": "Quintana Roo",
+        "codigo_postal": "77500"
+      },
+      "fecha": "2023-10-07",
+      "estatus": "Resuelto"
+    },
+    {
+      "id": 8,
+      "usuario_id": 1,
+      "tipo": "Fuga de gas",
+      "descripcion": "Se detectó olor a gas en la calle, podría ser una fuga.",
+      "ubicacion": {
+        "calle": "Calle Allende",
+        "colonia": "Centro",
+        "ciudad": "Mérida",
+        "estado": "Yucatán",
+        "codigo_postal": "97000"
+      },
+      "fecha": "2023-10-08",
+      "estatus": "En progreso"
+    },
+    {
+      "id": 9,
+      "usuario_id": 1,
+      "tipo": "Semáforo descompuesto",
+      "descripcion": "El semáforo en la intersección no funciona, es peligroso.",
+      "ubicacion": {
+        "calle": "Av. Universidad",
+        "colonia": "Centro",
+        "ciudad": "Xalapa",
+        "estado": "Veracruz",
+        "codigo_postal": "91000"
+      },
+      "fecha": "2023-10-09",
+      "estatus": "Pendiente"
+    },
+    {
+      "id": 10,
+      "usuario_id": 1,
+      "tipo": "Animales sueltos",
+      "descripcion": "Hay perros sueltos en la calle que están causando problemas.",
+      "ubicacion": {
+        "calle": "Calle Independencia",
+        "colonia": "Centro",
+        "ciudad": "Oaxaca",
+        "estado": "Oaxaca",
+        "codigo_postal": "68000"
+      },
+      "fecha": "2023-10-10",
+      "estatus": "Resuelto"
+    }
+  ]
+}
